@@ -1,6 +1,6 @@
 package tp_s6_back.Controller;
 
-import javax.servlet.http.HttpServletRequest;
+import jakarta.servlet.http.HttpServletRequest;
 import jakarta.servlet.http.HttpSession;
 import jakarta.servlet.http.Part;
 import org.jasypt.encryption.pbe.StandardPBEStringEncryptor;
@@ -21,6 +21,7 @@ import java.util.Vector;
 
 @Controller
 @Component
+@RequestMapping("/an")
 public class BackofficeController {
 
     @Autowired
