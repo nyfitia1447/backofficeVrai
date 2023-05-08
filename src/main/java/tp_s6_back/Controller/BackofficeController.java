@@ -13,6 +13,7 @@ import org.springframework.web.bind.annotation.PostMapping;
 import tp_s6_back.Base.FonctionBase;
 import tp_s6_back.Model.Article;
 import tp_s6_back.Model.User;
+import org.springframework.web.bind.annotation.RequestMapping;
 
 import java.io.InputStream;
 import java.sql.Connection;
