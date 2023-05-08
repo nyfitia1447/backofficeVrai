@@ -11,7 +11,7 @@
     <groupId>com.example</groupId>
     <artifactId>Tp_S6_Back</artifactId>
     <version>0.0.1-SNAPSHOT</version>
-    <packaging>war</packaging>
+    <packaging>jar</packaging>
     <name>Tp_S6_Back</name>
     <description>Tp_S6_Back</description>
     <properties>
