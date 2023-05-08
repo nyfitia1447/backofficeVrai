@@ -1,6 +1,6 @@
 package tp_s6_back.Controller;
 
-import jakarta.servlet.http.HttpServletRequest;
+import javax.servlet.http.HttpServletRequest;
 import jakarta.servlet.http.HttpSession;
 import jakarta.servlet.http.Part;
 import org.jasypt.encryption.pbe.StandardPBEStringEncryptor;
@@ -28,7 +28,7 @@ public class BackofficeController {
     @GetMapping("/")
     public String index(HttpServletRequest request){
         System.out.println(request.getMethod());
-        return "/WEB-INF/View/login.jsp";
+        return "login";
     }
 
     @GetMapping("/page")
