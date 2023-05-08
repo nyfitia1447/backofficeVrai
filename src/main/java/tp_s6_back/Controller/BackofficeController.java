@@ -28,7 +28,7 @@ public class BackofficeController {
     @GetMapping("/")
     public String index(HttpServletRequest request){
         System.out.println(request.getMethod());
-        return "login";
+        return "/WEB-INF/View/login.jsp";
     }
 
     @GetMapping("/page")
